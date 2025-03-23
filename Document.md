@@ -27,6 +27,7 @@ Creio que agora você já saiba como vou chegar (é claro, você quem dá esta a
 </div>
 
 Na imagem podemos verificar que a conexão dos Cin e Couts está em série, ou seja o próximo somador sempre contabilizará quando o anterior "estourar. Vendo da direita para a esquerda o circuito podemos verificar que o primeiro bit da direita é o menos significativo e os posteriores à esquerda são os mais significativos como na comparação entre unidades, dezenhas, centenas e assim por diante, Neste caso não tratam-se de dezenas, centenas na base 10 mas sim outros bits que podemos adicionar à soma. Cada somador tem 3 entradas, um Cin, número X e Y a serem somados junto ao Cin, e um Cout, resultado do valor excedido da Soma. Por cada Somador representar um bit diferente da soma, separamos o cabeamento desta forma na imagem de forma à demonstrar os dois números de 4 bits na base 2 à serem somados.
+
 ---
 ### Simplificação e adição de display
 
