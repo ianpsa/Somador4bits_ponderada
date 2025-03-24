@@ -43,3 +43,11 @@ Pontos de melhora:
 - Adicionar Distribuidores e memória para salvar valores em locais específicos de memória
 - Adicionar Subtração
 - Adicionar Multiplicação
+
+---
+
+### Vídeo Explicativo:
+
+
+https://github.com/user-attachments/assets/70a679a2-4c7c-4aaf-b6e9-e158d05dc87e
+
