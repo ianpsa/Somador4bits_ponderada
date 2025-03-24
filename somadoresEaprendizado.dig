@@ -302,20 +302,6 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>Cout</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-1380" y="-60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
           <rotation rotation="3"/>
         </entry>
         <entry>
@@ -790,10 +776,6 @@
       <elementName>Seven-Seg-Hex</elementName>
       <elementAttributes>
         <entry>
-          <string>segSize</string>
-          <int>1</int>
-        </entry>
-        <entry>
           <string>Color</string>
           <awt-color>
             <red>0</red>
@@ -801,6 +783,10 @@
             <blue>255</blue>
             <alpha>255</alpha>
           </awt-color>
+        </entry>
+        <entry>
+          <string>segSize</string>
+          <int>1</int>
         </entry>
       </elementAttributes>
       <pos x="-160" y="-480"/>
@@ -893,12 +879,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>somador de 4 bits completo</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>35</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>somador de 4 bits completo</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -911,12 +897,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Somador de 4 bits arcaico com representação de cada porta lógica</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>46</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Somador de 4 bits com representação de cada porta lógica</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -929,12 +915,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Decoder</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>27</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Decoder</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -1046,20 +1032,6 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>Cout</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-1820" y="-100"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
           <rotation rotation="3"/>
         </entry>
         <entry>
@@ -1087,12 +1059,12 @@
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Somador completo sozinho</string>
-        </entry>
-        <entry>
           <string>RectHeight</string>
           <int>42</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Somador completo sozinho</string>
         </entry>
         <entry>
           <string>RectWidth</string>
@@ -1147,6 +1119,34 @@
         </entry>
       </elementAttributes>
       <pos x="-840" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Cout</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1820" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Overflow</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1380" y="-60"/>
     </visualElement>
   </visualElements>
   <wires>
